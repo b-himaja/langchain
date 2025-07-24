@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-google-genai = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+langchain-pinecone = "*"
+langchainhub = "*"
+black = "*"
+langchain-ollama = "*"
+pypdf = "*"
+langchain-community = "*"
+faiss-cpu = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"

@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain-google-genai = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+langchain = "*"
+langchain-ollama = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
